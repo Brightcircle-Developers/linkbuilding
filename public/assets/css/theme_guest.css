@@ -1,0 +1,230 @@
+/*Header*/
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+/*Header flat*/
+.header-flat {
+    width: 100%;
+    height: 65px;
+    background-color: #bb8816;
+    border-bottom: 1px solid #c6c6c6;
+}
+.header-flat .header-top {
+    width: 100%;
+    height: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #c6c6c6;
+}
+.header-flat .header-bottom {
+    width: 100%;
+    height: 50px;
+}
+.header-flat .header_menu {
+    height: 100%;
+    float: right;
+}
+.header-flat .menu-list {
+    height: 100%;
+}
+.header-flat .menu-list .menuitem {
+    min-width: 50px;
+    height: 100%;
+    line-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 18px;
+    float: right;
+}
+.header-flat .menu-list .menuitem a {
+    color: #fff;
+}
+.header-flat .header_user {
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    float: right;
+    color: #fff;
+}
+.header-flat .header_user a {
+    color:  #fff;
+}
+/*Header responsive*/
+.header-responsive {
+    width: 100%;
+    height: 55px;
+    background-color: #171717;
+    border-bottom: 1px solid #303030;
+    display: none;
+}
+.header-responsive .header-top {
+    width: 100%;
+    height: 10px;
+    background-color: #202020;
+    border-bottom: 1px solid #303030;
+}
+.header-responsive .header-bottom {
+    width: 100%;
+    height: 45px;
+}
+.header-responsive .menu-button {
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+    line-height: 45px;
+}
+.header-responsive .menu-button:hover {
+    cursor: pointer;
+}
+.header-responsive .menu_button-style {
+    width: 35px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 6px;
+}
+.header-responsive .menu_button-line {
+    width: 100%;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+.header-responsive .header-menu {
+    width: 100%;
+    display: none;
+    background-color: #202020;
+}
+.header-responsive .menu-list {
+    height: 100%;
+}
+.header-responsive .menu-list .menuitem {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.header-responsive .header-menu-line-outer {
+    width: 100%;
+    border-top: 2px solid #54a1e0;
+}
+.header-responsive .header-menu-line-inner {
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5px;
+    border-bottom: 1px solid #54a1e0;
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    box-sizing: unset;
+    border-top: 1px solid #252525;
+}
+.footer-copyright {
+    height: 35px;
+    background-color: #151515;
+    line-height: 35px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.footer-copyright a {
+    color: #fff;
+}
+
+.page_content {
+    background-color: #fff;
+}
+.main {
+    min-height: calc(100vh - 37px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    background-color: #fff
+}
+.content-grid {
+
+}
+
+/*==============================*/
+/*=====LARGE DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 1200px) {
+    .main {
+        width: 1200px;
+    }
+    .header_menu {
+        width: 500px;
+        margin-right: 200px;
+    }
+}
+
+/*==============================*/
+/*====MEDIUM DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    .main {
+        width: 780px;
+    }
+    .header_menu {
+        width: 400px;
+        margin-right: 100px;
+    }
+}
+
+/*==============================*/
+/*====MEDIUM DEVICES TABLETS====*/
+/*==============================*/
+@media only screen and (min-width: 660px) and (max-width: 959px) {
+    .main {
+        width: 600px;
+    }
+    .header_menu {
+        width: 350px;
+        margin-right: 50px;
+    }
+}
+
+/*==============================*/
+/*=====MEDIUM DEVICES MOBILE====*/
+/*==============================*/
+@media only screen and (min-width: 480px) and (max-width: 659px) {
+    .main {
+        width: 420px;
+    }
+    .header_menu {
+        width: 300px;
+    }
+    .header-flat {
+        display: none;
+    }
+    .header-responsive {
+        display: block;
+    }
+}
+
+/*==============================*/
+/*=====SMALL DEVICES MOBILE=====*/
+/*==============================*/
+@media only screen and (max-width: 479px) {
+    .main {
+        width: 100%;
+    }
+    .header-flat {
+        display: none;
+    }
+    .header-responsive {
+        display: block;
+    }
+}

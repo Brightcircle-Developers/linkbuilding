@@ -1,0 +1,242 @@
+/*SISTERS CONTAINER*/
+.sisters-field {
+    width: calc(100% - 350px);
+    padding: 25px;
+    float: left;
+}
+.sisters-options {
+    width: 350px;
+    padding: 50px;
+    float: left;
+}
+.sisters-scheme {
+    width: 100%;
+}
+.sisters-options .button-add-sister {
+    background-color: #28c425;
+    border-color: #28c425;
+}
+.sisters-options .button-add-sister a:hover {
+    color: #28c425;
+}
+
+/*SISTER BACKLINKS*/
+.backlinks-field {
+    width: 100%;
+}
+.backlinks-top {
+    width: 100%;
+    height: 45px;
+    background-color: #999;
+}
+.backlinks-search {
+    height: 40px;
+    float: right;
+    margin-right: 15px;
+}
+.backlinks-search .search-input {
+    width: 200px;
+    height: 39px;
+    margin-top: 2.5px;
+    border: none;
+    border-top-left-radius: 19.5px;
+    border-bottom-left-radius: 19.5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    float: left;
+}
+.backlinks-search .search-button i {
+    line-height: 39px;
+}
+.backlinks-search .search-button {
+    width: 40px;
+    height: 39px;
+    margin-left: -20px;
+    margin-top: 2.5px;
+    border-radius: 19.5px;
+    line-height: 39px;
+    text-align: center;
+    color: #3357d5;
+    background-color: #d2d2d2;
+    float: left;
+}
+.backlinks-search .search-button:hover {
+    width: 42px;
+    height: 41px;
+    line-height: 41px;
+    margin-left: -21px;
+    margin-right: -1px;
+    font-size: 19px;
+    margin-top: 1.5px;
+}
+.backlinks-content {
+    width: 100%;
+    height: 420px;
+    padding: 10px;
+    padding-top: 0px;
+    overflow-y: auto;
+    background-color: #cbcbcb;
+}
+.backlinks-content ul {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+}
+.backlinks-content .menuitem {
+    width: 100%;
+    height: 25px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.backlinks-content .menuitem:hover {
+    background-color: #b6b6b6;
+}
+
+/*SISTER TOPICS*/
+.subject-title {
+    width: 100%;
+    padding-left: 15px;
+    line-height: 50px;
+    font-size: 38px;
+}
+.topics-field {
+    padding: 15px;
+}
+.sister-topics {
+    column-count: 3;
+    column-gap: 1em;
+}
+.sister-topics-message {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    display: block;
+}
+.sister-topic {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 5px #888;
+}
+.topic-top {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #d78c28;
+    color: #fff;
+}
+.topic-content {
+    width: 100%;
+    background-color: #c7c7c7;
+}
+.topic-backlinks {
+    width: 100%;
+}
+.topic-backlink {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+/*SISTER NEWTOPIC*/
+.newtopic-wrapper {
+    width: 100%;
+    padding: 10px;
+}
+.newtopic-title {
+    width: 100%;
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+/*SISTERS*/
+.lb-form.sisterindex {
+    width: 100%;
+    background-color: #dfa32f;
+}
+.lb-form.sisterindex .form-inner {
+    text-align: center;
+}
+.lb-form.sisterindex form {
+    display: inline-block;
+}
+.lb-form.sisterindex .form-row {
+    line-height: 45px;
+    display: block;
+}
+.lb-form.sisterindex .form-input {
+    height: 35px;
+    display: inline-flex;
+}
+.lb-form.sisterindex .input-text {
+    width: 250px;
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+}
+.lb-form.sisterindex .input-submit {
+    width: 100px;
+    height: 35px;
+    border: none;
+    line-height: 35px;
+    font-size: 18px;
+    color: #3357d5;
+    background-color: #fff;
+}
+
+/*USERS USERS*/
+.usermanage {
+    width: 100%;
+    display: inline-flex;
+}
+.usermanage .useroptions {
+    width:  250px;
+}
+.usermanage .userfield {
+    width: calc(100% - 250px);
+}
+/*User options*/
+.usermanage .user-top {
+    width: 100%;
+    margin-top: 50px;
+}
+.usermanage .userinfo-image {
+    width: 150px;
+    height: 150px;
+    background-color: #d4d4d4;
+}
+.usermanage .user-bottom {
+    width: 100%;
+    padding-top: 15px;
+}
+.usermanage .user-info-list {
+    width: 100%;
+}
+.usermanage .user-info-list li {
+    width: 100%;
+    display: inline-flex;
+}
+.usermanage .userinfo-title {
+    width: 35%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.usermanage .userinfo-value {
+    width: 65%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+}
+/*user table*/
+.usermanage .usertable {
+    width: 100%;
+    height: 100%;
+}

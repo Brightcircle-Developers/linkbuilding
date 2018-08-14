@@ -1,0 +1,70 @@
+/*==============================*/
+/*=====LARGE DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 1200px) {
+    /*SISTERS*/
+    #container-sisters {grid-column: 1/4; grid-row: 1;}
+
+    #container-sister-newbacklink {grid-column: 1/4; grid-row: 1/2;}
+    #container-sister-newtopic {grid-column: 1/2; grid-row: 2/3;}
+    #container-sister-backlinks {grid-column: 1/2; grid-row: 3/7;}
+    #container-sister-topics {grid-column: 2/4; grid-row: 2/5;}
+
+    #container-users-userlist {grid-column: 1/4; grid-row: 1/2;}
+}
+
+/*==============================*/
+/*====MEDIUM DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    /*SISTERS*/
+    #container-sisters {grid-column: 1/13; grid-row: 1;}
+
+    #container-sister-newbacklink {grid-column: 1/4; grid-row: 1;}
+    #container-sister-newtopic {grid-column: 9/13; grid-row: 1;}
+    #container-separator-sister {grid-column: 1/13; grid-row: 2;}
+    #container-sister-backlinks {grid-column: 5/12; grid-row: 3;}
+    #container-sister-topics {grid-column: 5/13; grid-row: 3;}
+}
+
+/*==============================*/
+/*====MEDIUM DEVICES TABLETS====*/
+/*==============================*/
+@media only screen and (min-width: 660px) and (max-width: 959px) {
+    /*SISTERS*/
+    #container-sisters {grid-column: 1/13; grid-row: 1;}
+
+    #container-sister-newbacklink {grid-column: 1/4; grid-row: 1;}
+    #container-sister-newtopic {grid-column: 9/13; grid-row: 1;}
+    #container-separator-sister {grid-column: 1/13; grid-row: 2;}
+    #container-sister-backlinks {grid-column: 5/12; grid-row: 3;}
+    #container-sister-topics {grid-column: 5/13; grid-row: 3;}
+}
+
+/*==============================*/
+/*=====MEDIUM DEVICES MOBILE====*/
+/*==============================*/
+@media only screen and (min-width: 480px) and (max-width: 659px) {
+    /*SISTERS*/
+    #container-sisters {grid-column: 1/13; grid-row: 1;}
+
+    #container-sister-newbacklink {grid-column: 1/4; grid-row: 1;}
+    #container-sister-newtopic {grid-column: 9/13; grid-row: 1;}
+    #container-separator-sister {grid-column: 1/13; grid-row: 2;}
+    #container-sister-backlinks {grid-column: 2/12; grid-row: 3;}
+    #container-sister-topics {grid-column: 5/13; grid-row: 3;}
+}
+
+/*==============================*/
+/*=====SMALL DEVICES MOBILE=====*/
+/*==============================*/
+@media only screen and (max-width: 479px) {
+    /*SISTERS*/
+    #container-sisters {grid-column: 1/13; grid-row: 1;}
+
+    #container-sister-newbacklink {grid-column: 1/4; grid-row: 1;}
+    #container-sister-newtopic {grid-column: 9/13; grid-row: 1;}
+    #container-separator-sister {grid-column: 1/13; grid-row: 2;}
+    #container-sister-backlinks {grid-column: 5/12; grid-row: 3;}
+    #container-sister-topics {grid-column: 5/13; grid-row: 3;}
+}

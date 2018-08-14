@@ -1,0 +1,29 @@
+/*==============================*/
+/*=====LARGE DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*==============================*/
+/*====MEDIUM DESKTOP DEVICES====*/
+/*==============================*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+}
+
+/*==============================*/
+/*====MEDIUM DEVICES TABLETS====*/
+/*==============================*/
+@media only screen and (min-width: 660px) and (max-width: 959px) {
+}
+
+/*==============================*/
+/*=====MEDIUM DEVICES MOBILE====*/
+/*==============================*/
+@media only screen and (min-width: 480px) and (max-width: 659px) {
+}
+
+/*==============================*/
+/*=====SMALL DEVICES MOBILE=====*/
+/*==============================*/
+@media only screen and (max-width: 479px) {
+}

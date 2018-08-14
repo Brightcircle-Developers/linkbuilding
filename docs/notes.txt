@@ -1,0 +1,104 @@
+/===FORM TEMPLATE==/
+
+cw-form form-theme-blue
+    form-row
+        form-input
+            input-label
+            input-input
+        form-input
+        input-label
+        input-input
+
+    form-row
+        form-input
+            input-label
+            input-input
+
+
+
+.cw-form.theme-blue.bordered {
+    padding: 2.5px;
+    border: 2px solid #54a1e0;
+    border-radius: 15px;
+}
+.cw-form.theme-blue.bordered .form-inner {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #54a1e0;
+    border-radius: 10px;
+}
+.cw-form.theme-blue.bordered .form-title {
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 35px;
+    position: relative;
+    top: -25px;
+    left: 35px;
+    font-size: 21px;
+    background-color: #292929;
+    float: left;
+}
+.cw-form.theme-blue.bordered form {
+    margin-top: 80px;
+}
+.cw-form.theme-blue .form-row {
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+}
+.cw-form.theme-blue .form-input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cw-form.theme-blue .form-input .input-label {
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+.cw-form.theme-blue .form-input .input-input {
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #54a1e0;
+    background-color: #373737;
+}
+.cw-form.theme-blue .form-input .input-textarea {
+    width: 100%;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 5px;
+    line-height: 18px;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #54a1e0;
+    background-color: #373737;
+    resize: none;
+}
+.cw-form.theme-blue .form-input .input-submit {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    line-height: 46px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    border: 2px solid #54a1e0;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color .2s ease-in-out;
+}
+.cw-form.theme-blue .form-input .input-submit:hover {
+    background-color: #54a1e0;
+    cursor: pointer;
+}
