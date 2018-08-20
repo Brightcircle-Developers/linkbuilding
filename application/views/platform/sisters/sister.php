@@ -80,7 +80,7 @@
             $.ajax(
                 {
                     type:"post",
-                    url: "<?php echo base_url(); ?>platform/sisters/ajax",
+                    url: "<?php echo base_url(); ?>request/abl",
                     data:{
                         filterString:filterString,
                         sisterId:sisPageId

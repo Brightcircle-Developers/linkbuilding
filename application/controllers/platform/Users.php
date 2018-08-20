@@ -44,10 +44,4 @@ class Users extends LB_Controller {
         //Load page
         load_page($data);
     }
-
-    public function userdata() {
-        $data['filter_type'] = $this->input->post('filterType');
-
-        $this->load->view('platform/users/userdata', $data);
-    }
 }

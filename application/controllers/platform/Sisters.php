@@ -119,11 +119,4 @@ class Sisters extends LB_Controller {
         //Load page
         load_page($data);
     }
-
-    public function ajax() {
-        $data['filter_string'] = $this->input->post('filterString');
-        $data['sister_id'] = $this->input->post('sisterId');
-
-        $this->load->view('platform/sisters/ajax', $data);
-    }
 }

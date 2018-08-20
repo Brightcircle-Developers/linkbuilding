@@ -12,4 +12,11 @@ class Request extends LB_Controller {
 
         $this->load->view('request/aul', $data);
     }
+
+    public function abl() {
+        $data['filter_string'] = $this->input->post('filterString');
+        $data['sister_id'] = $this->input->post('sisterId');
+
+        $this->load->view('request/abl', $data);
+    }
 }
