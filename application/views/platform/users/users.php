@@ -55,7 +55,7 @@
                         $.ajax(
                             {
                                 type:"post",
-                                url: "<?php echo base_url(); ?>platform/users/userdata",
+                                url: "<?php echo base_url(); ?>request/aul",
                                 data:{
                                     filterType: $("#usertable").attr("tfilter")
                                 },
